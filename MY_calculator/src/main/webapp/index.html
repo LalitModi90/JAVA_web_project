@@ -1,0 +1,27 @@
+<!-- WebContent/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator</title>
+</head>
+<body>
+
+  <h2>Java EE Calculator (No JS, No JSP)</h2>
+
+  <form action="MYservlet" method="post">
+  <input type="number" name="num1" placeholder="Enter first number" required><br><br>
+  <input type="number" name="num2" placeholder="Enter second number" required><br><br>
+
+  <select name="operation">
+    <option value="add">Addition</option>
+    <option value="sub">Subtraction</option>
+    <option value="mul">Multiplication</option>
+    <option value="div">Division</option>
+  </select><br><br>
+
+  <input type="submit" value="Calculate">
+</form>
+
+</body>
+</html>
